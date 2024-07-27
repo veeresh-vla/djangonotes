@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1>All Books Information</h1>
+      <ol>
+      {% for book in books %}
+        <li><a href="/{{book.id}}">{{book.title}}</a></li>
+      {% endfor %}
+      </ol>
+      <a class="btn btn-primary" href="/create">Insert New Book</a>
+    </div>
+    </body>
+</html>

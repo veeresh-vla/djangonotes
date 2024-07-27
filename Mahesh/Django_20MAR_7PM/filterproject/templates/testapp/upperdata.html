@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{% static 'css/fp.css' %}">
+  </head>
+  <body>
+    {% load cust_filters %}
+    {% for record in records%}
+    <h1>{{record.name}} Information</h1>
+    <ul>
+      <li>Name:{{record.name | fnu:6}}</li>
+      <li>Subject:{{record.subject | lower}}</li>
+      <li>Dept:{{record.dept | title}}</li>
+      <li>Date:{{record.date | date:'l,F j, Y'}}</li>
+    </ul><hr>
+    {% endfor %}
+  </body>
+</html>

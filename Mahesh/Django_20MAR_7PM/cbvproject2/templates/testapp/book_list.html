@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1>All Books Information</h1>
+      {% for book in book_list %}
+      <ul>
+        <li>Title:<strong>{{book.title}}</strong></li>
+        <li>Author:<strong>{{book.author}}</strong></li>
+        <li>Pages:<strong>{{book.pages}}</strong></li>
+        <li>Price:<strong>{{book.price}}</strong></li>
+      </ul>
+      <hr>
+      {% endfor %}
+    </div>
+  </body>
+</html>

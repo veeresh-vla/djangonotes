@@ -1,0 +1,52 @@
+[
+{
+    "model": "testapp.employee",
+    "pk": 1,
+    "fields": {
+        "eno": 101,
+        "ename": "Sunny",
+        "esal": 12000.0,
+        "eaddr": "Mumbai"
+    }
+},
+{
+    "model": "testapp.employee",
+    "pk": 2,
+    "fields": {
+        "eno": 102,
+        "ename": "Radhika",
+        "esal": 14000.0,
+        "eaddr": "Bng"
+    }
+},
+{
+    "model": "testapp.employee",
+    "pk": 3,
+    "fields": {
+        "eno": 103,
+        "ename": "Lilly",
+        "esal": 16000.0,
+        "eaddr": "Vja"
+    }
+},
+{
+    "model": "testapp.employee",
+    "pk": 4,
+    "fields": {
+        "eno": 104,
+        "ename": "Bunny",
+        "esal": 13000.0,
+        "eaddr": "Hyd"
+    }
+},
+{
+    "model": "testapp.employee",
+    "pk": 5,
+    "fields": {
+        "eno": 105,
+        "ename": "Chinny",
+        "esal": 14000.0,
+        "eaddr": "Hyd"
+    }
+}
+]

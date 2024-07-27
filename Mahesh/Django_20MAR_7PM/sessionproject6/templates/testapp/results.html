@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {% if request.session %}
+    <h1>Thanks for providing information...please confirm once</h1>
+    <ul>
+    {% for key,value in request.session.items %}
+    <li>{{key | upper}}:{{value | title}}</li>
+    {% endfor %}
+    </ul>
+    {% else %}
+    <h1>No information available</h1>
+    {% endif %}
+  </body>
+</html>

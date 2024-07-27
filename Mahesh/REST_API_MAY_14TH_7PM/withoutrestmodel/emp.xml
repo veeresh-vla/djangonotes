@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object model="testapp.employee" pk="1">
+        <field name="eno" type="IntegerField">101</field>
+        <field name="ename" type="CharField">Sunny</field>
+        <field name="esal" type="FloatField">12000.0</field>
+        <field name="eaddr" type="CharField">Mumbai</field>
+    </object>
+    <object model="testapp.employee" pk="2">
+        <field name="eno" type="IntegerField">102</field>
+        <field name="ename" type="CharField">Radhika</field>
+        <field name="esal" type="FloatField">14000.0</field>
+        <field name="eaddr" type="CharField">Bng</field>
+    </object>
+    <object model="testapp.employee" pk="3">
+        <field name="eno" type="IntegerField">103</field>
+        <field name="ename" type="CharField">Lilly</field>
+        <field name="esal" type="FloatField">16000.0</field>
+        <field name="eaddr" type="CharField">Vja</field>
+    </object>
+    <object model="testapp.employee" pk="4">
+        <field name="eno" type="IntegerField">104</field>
+        <field name="ename" type="CharField">Bunny</field>
+        <field name="esal" type="FloatField">13000.0</field>
+        <field name="eaddr" type="CharField">Hyd</field>
+    </object>
+    <object model="testapp.employee" pk="5">
+        <field name="eno" type="IntegerField">105</field>
+        <field name="ename" type="CharField">Chinny</field>
+        <field name="esal" type="FloatField">14000.0</field>
+        <field name="eaddr" type="CharField">Hyd</field>
+    </object>
+</django-objects>
